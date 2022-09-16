@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.todo-ul div {}
+
+.todo-ul li {
+    background-color: #fff;
+    padding: 1rem;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 2px;
+    font-size: 1.2rem;
+    color: #525252;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.check-box-container {
+    flex-basis: 70%;
+
+}
+
+.check-box-container label {
+    font-size: 20px;
+}
+
+.checkbox {
+    margin-right: 10px;
+}
+
+.numbering {
+    border-radius: 100%;
+
+}
+
+.task-status {
+    color: rgb(219, 16, 16);
+    font-size: 24px;
+}
+
+.todo-ul i {
+    color: #404040;
+    cursor: pointer;
+    font-size: 20px;
+    transition: all .4s ease-in-out;
+}
+
+.todo-ul i:hover {
+    color: #171717;
+}
+
+
+input[type="checkbox"]:checked {
+    background-color: #404040;
+}
